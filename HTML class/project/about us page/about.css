@@ -1,0 +1,119 @@
+#header{
+	margin-top: +34px;
+z-index:1;
+width:103%;
+height:20%;
+margin-left: -11px;
+background-color:#181818 ;
+position:fixed;
+box-shadow: 1px 3px 3px grey;
+	border-radius: 2px;
+	background-image: url("back2.jpg");
+
+
+}
+h1{
+	margin-top: 30px;
+	text-align: center;
+color: #F8F8FF ;
+text-shadow: 1px 1px 1px grey;
+font-family: Georgia;
+}
+span{
+
+text-align: center;
+color: #181818;
+color:Courier;
+text-shadow: 1px 1px 1px grey;
+font-size: 20px;	
+}
+#main{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	float: left;
+	margin-top: 140px;
+	margin-left: -8px;
+	background-image: url("oberoi2.jpg");
+	background-repeat: no-repeat;
+	background-size: 2080px;
+	width: 102.5%;
+	height:1030px;
+}
+#hotels{
+	text-align: center;
+color: #F8F8FF;
+color:Courier;
+text-shadow: 1px 1px 1px grey;
+font-size: 20px;	
+margin-top: -5px;
+}
+#about{
+	border-radius: 20px;
+	margin: 80px 180px 30px 200px;
+	border:3px solid #D4AF37;
+	width:70%;
+	height: 85%;
+	background-color: white;
+	opacity: 0.6;
+   box-shadow: 4px 4px 4px #D4AF37;	
+}
+#about_awadh
+{
+	text-align: center;
+	font-size: 24px;
+	font-family: Vivaldi;
+	color: #D4AF37
+}
+#menu
+{
+	border-radius: 3px ;
+	border: 3px solid  #998200;
+	border-bottom: 9px solid #998200;
+	margin-top: 60px;
+	position: absolute;
+	margin-left:40px;
+	width:80px;
+	height: 40px;
+	background-color:#D4AF37;
+	border-left: 5px solid #998200;
+	box-shadow: 2px 2px 2px black; 
+
+}
+#menu1
+{
+	position: absolute;
+margin-top: 107px;
+border: 5px solid #998200;
+ border-radius: 4px;
+	margin-left: 40px;
+	opacity: 0.8;
+    box-shadow: 3px 3px 3px gray;
+	width:200px;
+	height: 320px;
+	background-color: white;
+}
+#button
+{
+	margin-left: -2px;
+	margin-top: 9px;
+	text-align: center;
+font-size: 18px;
+font-family: sans-serif;
+color: white;
+text-shadow: 1px 1px 1px gray;
+}
+#menu:hover
+{
+	background-color: white;
+}
+.options
+{
+	color: #D4AF37;
+    font-size: 18px;
+    font-family: Gothic,sans-serif;
+    text-shadow: 1px 1px 1px gray;
+
+}
+a{
+	text-decoration: none;
+}

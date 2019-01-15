@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="homepage.js"></script>
+<link rel="stylesheet" type="text/css" href="homepage.css">
+	<title>LPU hotel</title>
+<script>
+	function resetform() {
+		document.getElementById('form').reset();
+	}
+
+	function cycleImages() {
+    var images = $('#slideshow img'),
+        now = images.filter(':visible'),
+        next = now.next().length ? now.next() : images.first(),
+        speed = 1000;
+
+    now.fadeOut("slow");
+    next.fadeIn("slow");
+}
+
+$(function () {
+    setInterval(cycleImages, 4400);
+});
+
+</script>
+
+</head>
+<body>
+<div id="header"><p id="name">&nbsp&nbspNawab awadh<br><img id="logo" src="A:\study\CSE\HTML\HTML class\project\data\hotel_logo.png"/><span style="padding-left: 30px">hotels&resorts</span><span id="home">Home | Video</span></p><div id="reserve"><p id="click_reserve">Quik reservation</p>
+<div id="reservation_slide"><form id="form"><ul id="ul_reserve">
+<li class="booking"><p class="details">Location : </p><select class="select">
+		<option class="valve" value="-select">-select</option>
+  <option class="valve" value="lucknow">lucknow</option>
+  <option class="valve" value="agra">Agra</option>
+  <option class="valve" value="Delhi">Delhi</option>
+  <option class="valve" value="Mumbai">Mumbai</option>
+  <option class="valve" value="Banglore">Banglore</option>
+
+</select></li>
+	 <li class="booking"><p class="details">First name : </p><input class="select" type="text" name="name" placeholder=" first name..."></li>
+	 <li class="booking"><p class="details">Last name : </p><input class="select" type="text" name="name" placeholder=" last name..."></li>
+	 <li class="booking"><p class="details">check in : </p><input class="check" type="date" name="Date1" min="2017-04-01"></li>
+	 <li class="booking"><p class="details">check out : </p><input class="check" type="date" name="Date" min="2017-04-12"></li>
+</ul>
+<div class="r_button"><p class="submit">Pay now</p></div><div class="r_button"  id="reset" onclick="resetform()" type="button"><p class="submit">Reset all</p></div>
+</form>
+</div>
+</div>
+<div id="menu"><p id="menu1">Menu</p><ul id="list">
+
+<li><p>book room</li>
+<li><p>services</p></li>
+<li><p>customer care</p></li>
+<a href="A:\study\CSE\HTML\HTML class\project\about us page\about.htm"><li><p class="b">about us</p></li></a>
+</ul>
+</div>
+<div id="gallery"><a href="gallery/gallery.htm"><p class="gallery1">Gallery</p></a></div>
+<div id="Hotels"><p class="gallery1">Hotels</p></div>
+</div> 
+<div id="left"></div>
+<div id="mid"><div id="texture"><div id="slideshow">                                                                            <!--slideshow-->
+<img src="background.jpg"/>
+<img src="udaipur-video-still.jpg"/>
+<img src="bedroom-kohinoor-suite-with-private-swimming-pool-the-oberoi-udaivilas-udaipur.jpg"/>
+<img src="oberoi-rajvillas.jpg"\>
+<img src="_MG_9636_1+copy.jpg">
+</div>
+<a href="A:\study\CSE\HTML\HTML class\project\reservation\reservation_page.htm" target="_blank"><div id="reservation">
+<p id="reservation1">make my reservation</p></div></a></div>
+<div id="footer" style="z-index: 3"></div>
+<div id="small_contact"><p id="Contact_xyz">FEEDBACK</p><div id="side"><select class="feed"><option class="valve" value="-Enquiry">-Enquiry Type</option>
+  <option class="valve" value="complaint">complaint</option>
+  <option class="valve" value="Suggestion">Suggestion</option>
+  <option class="valve" value="Feedback">Feedback</option>
+  <option class="valve" value="customer support">customer support</option>
+  
+
+</select><input class="feed" type="text" name="name" placeholder=" first name"></li>
+	 <input class=feed type="text" name="name" placeholder=" last name..."></li>
+	 <textarea class="feed1" name="comments" id="comments" cols="30" rows="5" placeholder="Suggestions"></textarea>
+</div></div>
+
+	<div id="slide"><h1 class="heading">The Nawab Awadh</h1><div id="awadh">
+<p class="likh">The Nawab Awadh, lucknow enjoys an unrivalled position amongst luxury hotels in the city of nawabs lucknow, being located just 600 metres from the iconic Gomti riverfront. Each of our rooms affords uninterrupted views of this beautiful riverfront, while elements of the layout and design pay homage to its Nawab splendour.Sprawled over 35 acres of luxurious gardens, Nawab Awadh, a luxury hotel in Lucknow is a fitting tribute to the great Mughal builders of the past. The only Indian hotel to have won the prestigious Aga Khan Award for its excellent representation of Mughal architecture. This luxury hotel in lucknow comprises of 233 opulent rooms and suites, recreating a paradise for the contemporary Mogul - full of splendor and perfection which was the hallmark of the Mughal Dynasty.</p>
+<h2 style="padding-left: 3px;text-shadow: 2px 2px 2px gray" >A Glorious Inspiration</h2><p class="likh">
+One of the richest and most powerful empires in the world at its zenith, the Mughal Empire has commanded the admiration and fascination of historians, poets and artists across the world since it rose to fame for the enviable extent of its wealth, the refinement of its courtly culture and the exquisite legacy of architecture and artistry that it established. This legacy comes to you, magnified in grandeur, imbued with the unmitigated essence of its grand Mughal inspiration and gift wrapped in the soft indulgence of world class luxury, only at Nawab Awadh, lucknow. </p><h2 style="padding-left: 5px;text-shadow: 2px 2px 2px gray">Facilities</h2>
+<pre class="likh" style="font-size: 24px">
+- Recreation:  Jogging Tracks, Mini Chip and Putt Golf, Two stunning Swimming Pools, All Terrain Vehicle, 
+  Children play area and Recreation room {Table Tennis, Pool Table, Air Hockey, Play Station etc}. 
+ 
+- Country’s largest and one of the most Luxurious award winning spa Kaya Kalp – The Royal Spa
+ 
+- Range of gourmet fine dining options which rate among the best in the city, 
+ 
+- State of the art Convention Centre </pre>
+<h2 style="padding-left: 5px;text-shadow: 2px 2px 2px gray">Awards</h2><p class="likh">
+It has the distinction of being the winner of the First Aga Khan Award for Architectural Excellence, in Asia, and till date, the only Indian Hotel to have won this prestigious International recognition. The hotel had grabbed the award, because of the architecture of the property which was inspired by the heritage Mughal monuments, namely Fatehapur Sikri and Agra Fort.</p>
+<br>
+<pre style="font-size: 24px;font-family: Arial;color: #D4AF37;text-shadow: 2px 2px 2px gray">Book the offer at the Nawab Awadh, Lucknow now and receive a third night with our compliments 
+for stays until 13th April, 2017.</pre>
+	</div><div id="videos" style="height: 450px;width: 100%;background-image: url('back2.jpg');margin-top: 2%"  >
+	<video controls style="margin-top: 35px;margin-left: 25px;border:4px solid black" width="/580" height="360"><source src="video.mp4" type="video/mp4"></video>
+
+<iframe width="400" height="364" src="https://www.youtube.com/embed/u5p-LtGXeps" frameborder="0" allowfullscreen></iframe>
+<video controls style="margin-top: 35px;border:4px solid black" width="590" height="360"><source src="ITC Mughal Hotel Agra(360p).MP4" type="video/mp4"></video>
+<div id="conne"><h2 style="font-family: Arial;text-shadow: 3px 3px 3px gray;font-size: 55px;padding-left: 665px;padding-top: 10px">Connect with us</h2><a href="https://www.facebook.com/" target="_blank">
+<div class="connectivity" style="margin-left: 680px"><img class="conn" src="facebook.png"/></div></a><a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1#" target="_blank">
+<div class="connectivity"><img class="conn" src="gmail.png"></div></a><a href="https://twitter.com/" target="_blank"><div class="connectivity"><img class="conn" src="twitter.png"></div></a></div>
+<div id="read"><div class="read1" style="margin-left: 350px"><img src="Bara-Imambara1.jpg" style="margin-top: 15px;margin-left: 5px;float:left;border: 2px solid black;box-shadow: 4px 4px 4px black" width="40%" height="70%"/><p class="head">Discover places</p><p class="text">BARA IMAMBARA was built in the year 1784 by the Nawab of awadh Asaf-ud-Daula.It is the one of most famous monument of this place.</p></div><div class="read1" style="margin-left: 900px"><img src="udaipur-video-still.jpg" style="margin-top: 15px;margin-left: 5px;border: 2px solid black;box-shadow: 4px 4px 4px black" width="40%" height="70%"/><p style="margin-top: -100px;margin-left: 170px;position: absolute;color: black;font-weight: bold;
+	font-size: 15px;font-family: Arial;text-shadow: 2px 2px 2px gray;
+	">Travel information</p><p id="text1">Chaudhary charn singh international airport is just 12 km from Nawab Awadh hotel. From here, we recommend guests to hire a car to reach The Hotel.</p>
+</div>
+</div>
+
+<div style="height: 480px;width: 100%;background-color:#383838;margin-top: -1%"><pre id="branch">Nawab awadh,lucknow | Nawab awadh,Agra | Nawab awadh,Delhi | Nawab awadh,Mumbai | Nawab awadh,Kolkata | Nawab awadh,Banglore | Nawab awadh,Udaipur | Nawab awadh,Ranthambore <br><h3>Upcoming hotels</h3><br>Nawab awadh,BH-4 |Nawab awadh,Block-34<br><h3>Created BY</h3><br><h3>Yash Pratap singh </h3><br><h2>HOTEL                  MANAGEMENT                 SYSTEM</h2><pre></div>
+</div>
+</body>
+</html>
+4890 2102 8700 6134

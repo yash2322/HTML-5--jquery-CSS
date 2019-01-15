@@ -1,0 +1,57 @@
+#contact{
+	background-color:black;
+	width: 92px;
+	height: 24px;
+	float:right;
+	margin-right: 680px;
+	margin-top: -35px;
+	box-shadow: 5px 5px 5px grey;
+	
+}
+#con{
+	margin-top: 2px;
+	margin-left:20px;
+    
+	color: white;
+	text-align:center;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+
+
+
+window.slide_it = true;
+
+$(element).on({
+
+    mouseenter:
+        function() {
+            window.slide_it = true;
+            slide_it();
+        }
+
+    mouseleave:
+        function() {
+            window.slide_it = false;
+        }
+
+});
+
+function slide_it () {
+
+    if( !window.slide_it )
+        return false;
+
+    $(element).stop().animate( 
+        {
+            'left':'-=5px'
+        },
+        100,
+        function() { slide_it() }
+    );
+
+}
+
+
+<span id="home">Home |</span><div id="contact"><span id="con">contact</span></div></p></div>

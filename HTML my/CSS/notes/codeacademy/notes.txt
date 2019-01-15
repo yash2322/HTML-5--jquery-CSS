@@ -1,0 +1,103 @@
+* is a universal selector in css
+
+
+
+text decoration :none                 if this is applied on a link then underline is removed from the link text
+
+
+# note: if we use body > p/h1/any... {style}
+then only the attribute just inside it will get styled others below it will not.....
+
+example:
+
+
+body > p{
+    font-weight:bold;              this will chANGE ONLY
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Ultimate Text Challenge</title>
+	</head>
+	<body>
+		<p>Introduction: Cascading with CSS</p>      <--THIS AND SUMMARY >
+		<div>
+			<p>Synopsis: When you set a property of a selector like 'p' to a certain value, that value applies to <em>all</em> p tags.
+			If, however, you change that same property to a different value for a more specific instance of p,
+			that change will <em>override</em> the 'general rule'.
+			</p>
+			<ul>
+				<li><p>If you say p { font-family: Garamond}, all 'p's will have the font Garamond.</p></li>
+				<li><p>BUT if you say li p {font-family: Verdana}, 'p's outside of 'li's will be
+					   in Garamond, and 'p's INSIDE 'li's will be in Verdana.
+				</p></li>
+				<li><p>The more specific your selectors are, the higher importance CSS gives to the styling you apply!</p></li>
+			</ul>
+		</div>
+		<p>Summary: Greater specificity makes CSS prioritize that particular styling.</p>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+other ways is to give id or class.
+
+ex.
+<p id="summary">Greater specificity makes CSS prioritize that particular styling.</p>
+or
+<p class="list_item">The more specific your selectors are, the higher importance CSS gives to the styling you apply!</p>
+
+
+
+
+to :anchor id in css we write as ex. #summary{
+                                      style
+                                            }
+to :anchor class in css we write as ex.   .list_items{
+                                                      style
+                                                      }
+
+
+
+
+
+different between class and id attribute:
+id can be given to a single element but a class can be given to multiple elements.:
+
+
+
+
+pseudo class selector:
+
+You've learned about class selectors. Now it's time to learn about pseudo-class selectors.
+
+A pseudo-class selector is a way of accessing HTML items that aren't part of the document tree (remember the tree structure we talked about earlier?). For instance, it's very easy to see where a link is in the tree. But where would you find information about whether a link had been clicked on or not? It isn't there!
+
+Pseudo-class selectors let us style these kinds of changes in our HTML document. For example, we saw we could change a link's text-decoration property to make it something other than blue and underlined. Using pseudo selectors, you can control the appearance of unvisited and visited links—even links the user is hovering over but hasn't clicked!
+
+The CSS syntax for pseudo selectors is
+
+selector:pseudo-class_selector {
+    property: value;
+}
+It's just that little extra colon (:).
+
+
+a:link: An unvisited link.
+a:visited: A visited link.
+a:hover: A link you're hovering your mouse over.
+
+
+
+
+absolute positioning does not effect the position of other elements;

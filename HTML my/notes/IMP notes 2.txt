@@ -1,0 +1,90 @@
+HTML STYLES:
+
+style is a attribute:Setting of an HTML elemnts ,can be s=done with the style attribute.
+Syntax:<tagname style="property:value;"
+Here property is a css property.The value is css value.
+example:
+<body>
+<h1 style="color:blue;">i am blue</h1>
+<p style="color:red;">i am red and small</p>
+</body>
+
+
+//html background color:
+the backgorund color defines the background color for an HTML element.
+ex:
+<body style="background-color:powderblue;">
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>     
+
+//   HTML fonts:
+     the font-family property defines the font to be used for an HTML element:
+example:  <h1 style="font-family:verdana;">This is a heading</h1>
+          <p style="font-family:courier;">This is a paragraph.</p>
+
+//  HTML text size:
+//  the font-size property defines the text size for an HTML element:
+example:<h1 style="font-size:300%;">this is a heading</h1>
+ 
+//  HTML text alignment
+//  the text align property defines the horizontal alignment for an html element:
+example:
+       <h1 style="text-align:center;">first heading in center</h1>   
+
+
+chapter summary:
+
+style:this attribute s use for styling HTML elemnts.
+backgroung-color:this is used for background color.
+color:this is for text color.
+font-family:this is used for the text fonts.
+font-size:this is used for text sizes
+text-align:tis is for text alignment
+
+
+
+HTML TEXT FORMATTING:
+
+1.This text is bold
+2.This text is italic
+3.This is subscript and superscript
+
+HTML also defines special elements for defining text with a special meaning.
+
+HTML uses elements like <b> and <i> for formatting output, like bold or italic text.
+
+Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Small text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+HTML <q> for Short Quotations
+The HTML <q> element defines a short quotation.
+
+Browsers usually insert quotation marks around the <q> element. 
+
+
+
+HTML <blockquote> for Quotations
+The HTML <blockquote> element defines a section that is quoted from another source.
+
+Browsers usually indent <blockquote> elements.
+
+
+
+HTML <abbr> for Abbreviations
+The HTML <abbr> element defines an abbreviation or an acronym.
+
+Marking abbreviations can give useful information to browsers, translation systems and search-engines.
+

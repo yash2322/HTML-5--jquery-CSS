@@ -1,0 +1,12 @@
+
+webpage
+{
+HTML-add content
+CSS-for layout or styling
+Javascript-logic part
+}
+
+
+source code
+(program code) or script
+extension----.html or .htm

@@ -1,0 +1,21 @@
+attributes:
+-accessskey
+-contenteditable
+-contextmenu
+-data-yourvalue
+-draggable
+-dropzone
+-hidden
+-spellcheck
+In HTml content cannot be changed by a user.
+*HTML allows to use a text or a image to link two or more web pages or websites.Such type of text or image is known as HYPERLINK. 
+*WEB nad internet/net are thw terms related but are not synonymous.Web is a service that runs on a internet while internet is a system of interconnected computer network.
+web is a collection of websites and other resources which are linked by hyperlinks URLs (unifrom resource locator).
+
+
+*WEB 1.0-provides only read only content and static HTML WEBSITES.There was no scope for content contribution to the websites.Hence this is known as read only web.ex HOTMAIL or GEOCITIES.
+
+*WEB 2.0-enable people to share info on the internet.It provides transition from static HTML web pages to dynamic HTML webpages.This allows us to create
+(RIAs) i.e.RICH INTERNET APPLICTAIONS taht are deliverd through web browser.eg youtube, flickr.
+
+*WEB 3.0-enables people to personalize web page on a website,for instance igoogle.THIS IS THE LATEST VERSION OF WEB,WHICH IS UNDER DEVELOPMENT.It is also known as semantic web, by TIM BERNERS-LEE, the man who invented the WWW.

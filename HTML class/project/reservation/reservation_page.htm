@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reservation</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="reservation.css">
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity0="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="reservation.js"></script>
+	<title>reservation</title>
+</head>
+<body>
+<script>
+	function resetform() {
+		document.getElementById('form').reset();
+	}
+</script>
+<div id="header"><div id="menu"><p id="button">Menu</p></div><div id="menu1">
+<ul>
+	<li><a href="A:\study\CSE\HTML\HTML class\project\home page.htm"><p class="options">HOME</p></a></li>
+	<br>
+	<li><p class="options">RESERVATION</p></li>
+	<br>
+	<li><p class="options">VIDEOS</p></li>
+	<br>
+	<li><p class="options">BRANCHES</p></li>
+</ul>
+</div><h1>Nawab AWADH<br><span id="hotels">Hotels&resorts</span></h1></div>
+<div id="main"><div id="page1"><h2>Reservation</h2></div><div id="reservation_block"><form id="form"><ul id="ul_reserve">
+<li class="booking"><p class="details">Location : </p><select class="select">
+		<option class="valve" value="-select">-select</option>
+  <option class="valve" value="lucknow">lucknow</option>
+  <option class="valve" value="agra">Agra</option>
+  <option class="valve" value="Delhi">Delhi</option>
+  <option class="valve" value="Mumbai">Mumbai</option>
+  <option class="valve" value="Banglore">Banglore</option>
+
+</select></li>
+	 <li class="booking"><p class="details">First name : </p><input class="select" type="text" name="name" placeholder=" first name..."></li>
+	 <li class="booking"><p class="details">Last name : </p><input class="select" type="text" name="name" placeholder=" last name..."></li>
+	 <li class="booking"><p class="details">check in : <span id="check_out_text">check out : </span></p><input class="check" type="date" name="Date1" min="2017-04-01"><input class="check" style="margin-left: 24px" type="date" name="Date" min="2017-04-12"></li>
+	 <li class="booking" id='check_out'></li>
+	 <li class="booking"><p class="details">Room type : </p><select class="select">
+		<option class="valve" value="-select">-select</option>
+  <option class="valve" value="lucknow">PRESIDENTIAL SUIT</option>
+  <option class="valve" value="agra">EXECUTIVE</option>
+  <option class="valve" value="Delhi">PREMIUM</option></select></li>
+</ul>
+<a href="https://paytm.com/"><div class="r_button" style="margin-left: 450px;margin-top: 50px"><p class="submit">Pay now</p></div></a><div class="r_button"  id="reset" onclick="resetform()" type="button"><p class="submit">Reset all</p></div>
+</form>
+
+</div><div id="footer1"></div></div>
+
+</body>
+</html>

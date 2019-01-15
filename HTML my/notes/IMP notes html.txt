@@ -1,0 +1,151 @@
+
+                                                                                (BASICS TAGS AND ATTRIBUTE)
+
+// HTML elements with no content are called empty elements.<br> is an empty element without a closing tag (the <br> tag defines a line break).
+
+// HTML5 does not require empty elements to be closed. But if you want stricter validation, or if you need to make your document readable by XML parsers,
+   you must close all HTML elements properly.
+
+// lowercase tags should be used, using uppercase will not create problem but its will be gud to use lowercase
+
+// Attributes provide additional information about HTML elements.
+
+// Attributes provide additional information about an element
+   Attributes are always specified in the start tag
+   Attributes usually come in name/value pairs like: name="value".
+
+// The language of the document can be declared in the <html> tag.
+   The language is declared with the lang attribute.
+   Declaring a language is important for accessibility applications (screen readers) and search engines:
+   example :<!DOCTYPE html>
+            <html lang="en-US"> 
+            <body>
+            ...
+           </body>
+           </html>
+
+// "title" attribute is added to the <p> element. The value of the title attribute will be displayed as a tooltip when you mouse over the paragraph:
+    example:
+                <p title="I'm a tooltip">
+                This is a paragraph.
+                </p>
+
+// "href attribute" HTML links are defined with the <a> tag. The link address is specified in the href attribute:
+  
+//  "size attribute"  HTML images are defined with the <img> tag.
+    The filename of the source (src), and the size of the image (width and height) are all provided as attributes:
+    example:<img src="w3schools.jpg" width="104" height="142">
+
+//  "alt attribute" The alt attribute specifies an alternative text to be used, when an image cannot be displayed.
+    The value of the attribute can be read by screen readers. This way, someone "listening" to the webpage, e.g. a blind person, can "hear" the element.
+    EXAMPLE:<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
+// NOTE:The HTML5 standard does not require quotes around attribute values.The href attribute, demonstrated above, can be written as:<a href=https://www.w3schools.com>
+
+         IMP NOTE:Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+         In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
+         EXAMPLE:<p title='John "ShotGun" Nelson'>   or vice versa  <p title="John 'ShotGun' Nelson">
+                                        
+
+                                                                                (Chapter Summary)
+
+All HTML elements can have attributes
+The title attribute provides additional "tool-tip" information
+The href attribute provides address information for links
+The width and height attributes provide size information for images
+The alt attribute provides text for screen readers
+At W3Schools we always use lowercase attribute names
+At W3Schools we always quote attribute values with double quotes
+
+                                                                                  (some attributes)    
+alt	        Specifies an alternative text for an image, when the image cannot be displayed
+disabled	Specifies that an input element should be disabled
+href	        Specifies the URL (web address) for a link
+id	        Specifies a unique id for an element
+src	        Specifies the URL (web address) for an image
+style	        Specifies an inline CSS style for an element
+title	        Specifies extra information about an element (displayed as a tool tip)
+
+
+//  Headings are defined with the <h1> to <h6> tags.<h1> defines the most important heading. <h6> defines the least important heading.
+    Browsers automatically add some white space (a margin) before and after a heading
+
+//  Headings Are Important
+    Search engines use the headings to index the structure and content of your web pages.
+    Users skim your pages by its headings. It is important to use headings to show the document structure.
+    <h1> headings should be used for main headings, followed by <h2> headings, then the less important <h3>, and so on.
+
+//  HTML Horizontal Rules <hr> tag:
+    The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+    The <hr> element is used to separate content (or define a change) in an HTML page:
+
+//  The HTML <head> Element
+    The HTML <head> element has nothing to do with HTML headings.
+    The <head> element is a container for metadata. HTML metadata is data about the HTML document. Metadata is not displayed.
+    The <head> element is placed between the <html> tag and the <body> tag: 
+    example:<!DOCTYPE html>
+    <html>
+
+    <head>
+    <title>My First HTML</title>
+    <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+//  Note: Metadata typically define the document title, character set, styles, links, scripts, and other meta information.
+
+
+
+note:Browsers automatically add some white space (a margin) before and after a paragraph.
+
+
+//HTML Display
+You cannot be sure how HTML will be displayed.
+Large or small screens, and resized windows will create different results.
+With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.
+The browser will remove any extra spaces and extra lines when the page is displayed:
+example:
+a code like this:<p>these                      spaces are
+                     of no use       browser will ignore these spaces
+                     and extra lines
+                 </p>
+                  output:these spaces are of no use browser will ignore these spaces and extra line 
+
+
+//HTML line break (br tag)
+we use br tag for line break 
+example:
+           <p>This is<br>a paragraph<br>with line breaks.</p>
+
+
+Poem problem:
+example:
+<p>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</p>
+output:whole content will come in a single line:
+
+//To counter this we use <pre> tag:
+The HTML <pre> element defines preformatted text.
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+example:<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+now the output will be same as the text written:
+
+recap:<br>-line break
+      <pre>-preformatted text
+      <p>-paragraph

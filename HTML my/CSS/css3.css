@@ -1,0 +1,13 @@
+/*CSS will first try to apply Garamond to your paragraphs. If the user's computer doesn't have that font, it will try Arial next, and if that doesn't work, it will show a default sans-serif font.*/
+
+
+p{
+font-size:30px;
+font-family:Garamond,Arial;
+color:khaki;
+}
+h1{
+font-family:Vivaldi,Times,Garamond;
+color:blue;
+background-color:gray;
+}

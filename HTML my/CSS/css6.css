@@ -1,0 +1,16 @@
+h1{
+    font-family:Verdana,sans-serif;
+    color:#576D94;
+}
+p{
+    font-family:Garamond,serif;
+    font-size:18px;
+    color:#4A4943;}
+    img{
+        height:100px;
+        width:300px;
+        border:1px solid #4682b4;
+    }
+    a{
+        color:#cc0000;
+        text-decoration:none;}
